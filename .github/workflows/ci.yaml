@@ -111,6 +111,8 @@ jobs:
         run: cargo install --locked --path . --debug --target ${{ matrix.target }}
       - name: self check
         run: cargo deny -L debug --all-features --locked check
+      - name: dependency policy
+        run: cargo deny --locked check licenses advisories
       # - name: check external users
       #   run: ./scripts/check_external.sh
 

@@ -13,6 +13,7 @@ all-features = true
 [advisories]
 unmaintained = "all"
 unsound = "all"
+yanked = "deny"
 ignore = []
 
 [bans]
@@ -55,5 +56,6 @@ allow = [
     "Zlib",
 ]
 exceptions = [
+    # zstd-sys is the only dependency that carries this license.
     { crate = "zstd-sys", allow = ["BSD-2-Clause"] }
 ]

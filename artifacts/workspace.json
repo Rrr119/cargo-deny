@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid34482",
+  "B": "/home/dev/feedback/uid34482",
+  "sha": "2efc981ded4b7640f6ae2e566f68ec5f62ae9b1f",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "EmbarkStudios",
+    "repo": "cargo-deny",
+    "sha": "2efc981ded4b7640f6ae2e566f68ec5f62ae9b1f"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "cargo-deny",
+    "cloneUrl": "https://github.com/Rrr119/cargo-deny.git"
+  },
+  "at": "2026-11-23T03:06:05.753Z"
+}
